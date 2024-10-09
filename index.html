@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sushi Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.js">
+
+</head>
+<body>
+    <header>
+        <h1>Zen Sushi Bar</h1>
+    </header>
+
+    <section id="menu">
+        <h2 class="m">Sushi menu</h2>
+        <div class="menu-item" onclick="openLightbox('sushi1.jpg')">
+            <img src="img/الصورة 1.jpg" alt="سوشي 1">
+            <p>menu 1</p>
+        </div>
+        <div class="menu-item" onclick="openLightbox('sushi2.jpg')">
+            <img src="img/الصوره 2.jpg" alt="سوشي 2">
+            <p>menu 2</p>
+        </div>
+        <div class="menu-item" onclick="openLightbox('sushi3.jpg')">
+            <img src="img/الصوره 3.jpg" alt="سوشي 3">
+            <p> menu 3</p>
+        </div>
+        <div class="menu-item" onclick="openLightbox('sushi4.jpg')">
+            <img src="img/الصوره 4.jpg" alt="سوشي 4">
+            <p>menu 4</p>
+        </div>
+        <div class="menu-item" onclick="openLightbox('sushi5.jpg')">
+            <img src="img/الصورة 5.jpg
+            " alt="سوشي 5">
+            <p>menu 5</p>
+        </div>
+        <div class="menu-item" onclick="openLightbox('sushi6.jpg')">
+            <img src="img/الصوره 6.jpg" alt="سوشي 6">
+            <p>menu 6</p>
+        </div>
+        <div class="menu-item" onclick="openLightbox('sushi7.jpg')">
+            <img src="img/الصورة 7.jpg
+            " alt="سوشي 7">
+            <p>menu 7</p>
+        </div>
+        <div class="menu-item" onclick="openLightbox('sushi8.jpg')">
+            <img src="img/الصورة 8.jpg" alt="سوشي 8">
+            <p>menu 8</p>
+        </div>
+        <div class="menu-item" onclick="openLightbox('sushi9.jpg')">
+            <img src="img/الصورة 9.jpg" alt="سوشي 9">
+            <p>menu 9</p>
+        </div>
+        <div class="menu-item special" onclick="openLightbox('sushi10.jpg')">
+            <img src="img/الصورة 10.jpg" alt="عرض خاص">
+            <p>Special offer</p>
+        </div>
+    </section>
+
+    <!-- نافذة عرض الصورة المنبثقة -->
+    <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+        <span class="close" onclick="closeLightbox()">&times;</span>
+        <img id="lightbox-img" class="lightbox-img">
+    </div>
+
+    <footer>
+        <div class="contact-info">
+            <p>للتواصل: <strong>01203890147</strong></p>
+            <p>واتساب: <strong>01203890147</strong></p>
+            <p><a href="https://www.facebook.com/profile.php?id=61560357072604&mibextid=ZbWKwL">صفحة الفيس بوك</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
